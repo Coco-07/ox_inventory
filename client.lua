@@ -1903,3 +1903,4 @@ lib.callback.register('ox_inventory:getVehicleData', function(netid)
 		return GetEntityModel(entity), GetVehicleClass(entity)
 	end
 end)
+-- some changes
