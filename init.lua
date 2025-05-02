@@ -11,6 +11,7 @@ end
 -- resource settings? Use convars like you were told in the documentation.
 -- You did read the docs, right? Probably not, if you're here.
 -- https://overextended.dev/ox_inventory#config
+-- some changes
 
 shared = {
     resource = GetCurrentResourceName(),

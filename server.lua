@@ -18,6 +18,7 @@ local Inventory = require 'modules.inventory.server'
 ---@param data table?
 --- player requires source, identifier, and name
 --- optionally, it should contain jobs/groups, sex, and dateofbirth
+--- some changes
 function server.setPlayerInventory(player, data)
 	while not shared.ready do Wait(0) end
 
